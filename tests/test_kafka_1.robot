@@ -1,5 +1,5 @@
 *** Settings ***
-Library    KafkaLibrary    WITH NAME    Kafka
+Library    ../KafkaLibrary.py    WITH NAME    Kafka
 
 *** Variables ***
 ${BOOTSTRAP_SERVERS}    localhost:9092
